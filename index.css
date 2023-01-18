@@ -1,0 +1,121 @@
+body{
+    font-family: 'Sevillana', cursive;
+    margin: 0px;
+    padding: 0px;
+    /* background: url("Image.jpg"); */
+    background-position: center;
+    background-attachment: fixed;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.header{
+    position: sticky;
+}
+.left{
+    margin: 2px;
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    left: 30px;
+    top: 0px;
+}
+
+.mid{
+    display: block;
+    width: 40%;
+    margin: 20px auto;
+    /* border: 2px solid red; */
+    background-color: azure;
+    
+}
+.right{
+    margin: 2px;
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    right: 30px;
+    top: 0px;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.navbar li{
+    display: inline-block;
+    /* font-size: 15px; */
+    
+
+}
+.navbar li a{
+    text-decoration: none;
+    padding: 4px 8px;
+    font-size: 20px;
+    
+   
+    
+}
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color: rgb(252, 93, 93);
+}
+.left img{
+    width: 50px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.btn{
+    border: 2px solid black;
+    border-radius: 1px;
+    margin: 0px 5px;
+    padding: 4px 14px;
+    font-size: 15px;
+    font-family: 'Sevillana', cursive;
+    cursor: pointer;
+
+}
+.btn:hover {
+    color: rgb(252, 93, 93);
+    text-decoration: underline;
+}
+
+.container{
+    display: flex;
+    /* border: 1px solid red; */
+    margin: 20px;
+    padding: 15px;
+    width: 100%;
+    margin-top: 60px;
+    margin-right: 20px;
+
+    
+    /* background-color: rgba(240, 255, 255, 0); */
+    
+    
+}
+.containerleft{
+    border: 2px solid red;
+    border-radius: 12%;
+    padding: 15px;
+    margin-left: 30px;
+    background-color: azure;
+}
+.container h2{
+    text-align: center;
+}
+.formgroup input{
+    text-align: center;
+    display: block;
+    padding: 6px;
+    margin: 0px 65px;
+    width: 300px;
+}
+.container button{
+    display: block;
+    width: auto;
+    margin: 20px auto;
+    border-radius: 10px;
+}
